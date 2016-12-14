@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <br.com.bloder.magic.view.MagicButton
+    android:id="@+id/btnFacebook"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    app:magic_button_size="60dp"
+    app:button_icon="@drawable/facebook"
+    app:button_icon_width="30dp"
+    app:button_icon_height="30dp"
+    app:hide_text="Facebook"
+    app:hide_text_size="15dp"
+    app:icon_button_color="#cdced3"
+    app:expandable_area_color="#3b5998"
+    />
+
+  <br.com.bloder.magic.view.MagicButton
+    android:layout_below="@+id/btnFacebook"
+    android:layout_marginTop="20dp"
+   android:id="@+id/btnYoutube"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_centerInParent="true"
+   app:magic_button_size="60dp"
+   app:button_icon="@drawable/youtube"
+   app:button_icon_width="30dp"
+   app:button_icon_height="30dp"
+   app:hide_text="Youtube"
+   app:hide_text_size="15dp"
+   app:icon_button_color="#cdced3"
+   app:expandable_area_color="#e02f2f"
+    />
+
+
+
+</RelativeLayout>
